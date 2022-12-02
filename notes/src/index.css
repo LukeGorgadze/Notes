@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff8a65;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff6637;
+}
+
+.Ll {
+  text-decoration: none;
+  color: #ff8a65;
+}
+
+.Ll:hover {
+  border-bottom: 1px solid #ff8a65;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.subHeader {
+  font-size: 30px;
+  font-weight: 500;
+  border-bottom: 1px solid #ff8a65;
+  margin-bottom: 20px;
+}
+
+.note{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: #ff8a65;
+}
+.math {
+  margin: 20px 0;
+  padding: 40px 20px;
+  border-radius: 20px;
+  overflow: auto;
+  z-index: 0;
+  /* background-color: rgb(255, 209, 185); */
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.expln {
+  margin: 20px 0;
+  padding: 40px 20px;
+  border-radius: 20px;
+  overflow: auto;
+
+  background-color: rgb(255, 209, 185);
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.example {
+  margin: 20px 0;
+  padding: 40px 20px;
+  border-radius: 20px;
+  overflow: auto;
+
+  background-color: rgb(198, 255, 145);
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}  */
